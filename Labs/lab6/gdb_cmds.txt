@@ -1,0 +1,11 @@
+# we know we can break at main
+#break main
+#break killPlayer
+#break getMove
+commands
+silent
+print *player
+print *wumpus
+continue
+end
+run

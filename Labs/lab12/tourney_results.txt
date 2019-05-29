@@ -1,0 +1,52 @@
+
+============= Starting tier 1 =============
+-------------------- Winners Bracket ----------------------
+Playing scissors against paper ...
+  scissors score is 50, paper score is 0 ...scissors Won!!!!
+Playing igokce1 against rock ...
+  igokce1 score is 50, rock score is 0 ...igokce1 Won!!!!
+  Player random got a bye into the next tier
+============= Finished tier 1 =============
+
+============= Starting tier 2 =============
+-------------------- Winners Bracket ----------------------
+Playing igokce1 against scissors ...
+  igokce1 score is 50, scissors score is 0 ...igokce1 Won!!!!
+  Player random got a bye into the next tier
+--------------------- Losers Bracket ------------------------------
+Playing paper against rock ...
+  paper score is 50, rock score is 0 ...paper Won!!!!
+Eliminating rock after two losses
+============= Finished tier 2 =============
+
+============= Starting tier 3 =============
+-------------------- Winners Bracket ----------------------
+Playing random against igokce1 ...
+  random score is 38, igokce1 score is 28 ...random Won!!!!
+--------------------- Losers Bracket ------------------------------
+Playing paper against scissors ...
+  paper score is 0, scissors score is 50 ...scissors Won!!!
+Eliminating paper after two losses
+============= Finished tier 3 =============
+
+============= Starting tier 4 =============
+-------------------- Winners Bracket ----------------------
+  Player random got a bye into the next tier
+--------------------- Losers Bracket ------------------------------
+Playing igokce1 against scissors ...
+  igokce1 score is 50, scissors score is 0 ...igokce1 Won!!!!
+Eliminating scissors after two losses
+============= Finished tier 4 =============
+
+========== Championship Match! ==============
+Playing random against igokce1 ...
+  random score is 25, igokce1 score is 30 ...igokce1 Won!!!
+
+============= Starting tier 5 =============
+--------------------- Losers Bracket ------------------------------
+Playing random against igokce1 ...
+  random score is 26, igokce1 score is 28 ...igokce1 Won!!!
+Eliminating random after two losses
+============= Finished tier 5 =============
+
+Winner after a long hard fight: igokce1

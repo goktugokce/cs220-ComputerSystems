@@ -1,0 +1,54 @@
+1. At the start of the main function, both %edi and %rsi are saved in the invocation record.
+	Why is the 32 bit version of the di register and the 64 bit version of the si register saved?
+	Why not 32 or 64 bit versions of both?
+	
+	Answer: int argc is stored in %edi and char **argv is stored in %rsi. In c, integers are 32bits and pointers are 8bits and chars are 8bits too therefore **char equals to 8*8=64 bits.	
+	
+2. What does the instruction "cmpl   $0x1,-0x14(%rbp)" do? What registers or memory does this
+	instruction change?
+	
+	Answer: cmpl is compare logical operand, in this case it compares value '1' and the value in '-0x14(%rbp)' which is equal to %edi. If condition is true, it jumps to offset 711.
+	
+3. What registers or memory are consulted by the "jg     777 <main+0x37>" instruction to 
+	determine whether the jump should be taken or not?
+	
+	Answer: jump waits the condition is true or not from the compare instruction. Therefore, it gets the result of 'cmpl   $0x1,-0x14(%rbp)' and then if it is true goes to offset 711 and invokes 'mov    -0x20(%rbp),%rax'.
+	
+4. What is the condition, using C notation, evaluated by the two instructions in question 2
+	and 3, that causes a jump to the end of the if statement if true?
+	
+	Answer: argc<=1
+	
+5. In the instruction "jmp    7d9 <main+0x99>", what registers or memory are consulted to
+	determine if the jump should be taken or not?
+	
+	Answer: -0x14(%rbp). It controls the if statement argc<2. If it is true it goes the scope and terminated the code
+	
+6. At offset 804, the instruction "jmp    881 <leftBit+0xa6>" is an unconditional jump. Why
+	does the C compiler jump over the body of the loop (the instructions between offset 806
+	and 87e) when first entering the loop?
+	
+	Answer: because it should first look w>1 condition is true or false, and its compare is in offset 881.
+	
+	
+7. If the condition "w>1" is true at offset 885, what value does the instruction at 885 put
+	in the %rip register? (Express your answer as an offset, since the actual address depends
+	on where the UNIX loader puts your instructions in memory.)
+	
+	Answer: puts the -0xc(%rbp) into %eax.
+	
+8. What C code is implemented with the instruction at offset 89b, "movl   $0x1f,-0x4(%rbp)"
+
+	Answer: i=31 
+	
+9. At offset 8ac, the instruction "sar    %cl,%edx" performs a shift arithmetic right on the
+	value in %edx. Why did the compiler choose an arithmetic instead of a logical shift
+	instruction?
+	
+	Answer: arithmetic shift does not care about most left bit unlike logical shift.
+	
+10. The "test   %eax,%eax" instruction at offset 8b3 is followed by the "jump equal",
+	"je     8be <printBin+0x2e>"	instruction at offset 8b5. What condition (expressed
+	in C notation) is being checked by these two lines of code?
+	
+	Answer: (n&1<<i)?'1':'0'--> is result of n&1<<i is equal to 1 or 0.

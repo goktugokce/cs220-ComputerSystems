@@ -1,0 +1,337 @@
+warehouse.c: In function ‘main’:
+warehouse.c:21:3: warning: implicit declaration of function ‘addingToArray’; did you mean ‘addingArray’? [-Wimplicit-function-declaration]
+   addingToArray(bin);
+   ^~~~~~~~~~~~~
+   addingArray
+/tmp/ccLhmmMD.o: In function `main':
+/home/goktugokce/Desktop/CS220/proj2-goktugokce/warehouse.c:21: undefined reference to `addingToArray'
+collect2: error: ld returned 1 exit status
+warehouse.c: In function ‘decider’:
+warehouse.c:63:19: warning: implicit declaration of function ‘findSlot’; did you mean ‘binInSlot’? [-Wimplicit-function-declaration]
+     indexNumber = findSlot(ordersArray[i][0]);
+                   ^~~~~~~~
+                   binInSlot
+warehouse.c:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/tmp/ccMYGLue.o: In function `decider':
+/home/goktugokce/Desktop/CS220/proj2-goktugokce/warehouse.c:63: undefined reference to `findSlot'
+/home/goktugokce/Desktop/CS220/proj2-goktugokce/warehouse.c:69: undefined reference to `findSlot'
+/home/goktugokce/Desktop/CS220/proj2-goktugokce/warehouse.c:75: undefined reference to `findSlot'
+/home/goktugokce/Desktop/CS220/proj2-goktugokce/warehouse.c:81: undefined reference to `findSlot'
+/home/goktugokce/Desktop/CS220/proj2-goktugokce/warehouse.c:87: undefined reference to `findSlot'
+collect2: error: ld returned 1 exit status
+warehouse.c: In function ‘decider’:
+warehouse.c:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decider’:
+warehouse.c:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decider’:
+warehouse.c:95:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c:1:10: fatal error: slots.h: No such file or directory
+ #include "slots.h"
+          ^~~~~~~~~
+compilation terminated.
+warehouse.c: In function ‘main’:
+warehouse.c:80:1: error: expected ‘while’ at end of input
+ }
+ ^
+warehouse.c:80:1: error: expected declaration or statement at end of input
+warehouse.c: In function ‘decide’:
+warehouse.c:34:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:34:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:34:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:34:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:36:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:46:23: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  if(indexNumber == -1 && counter < 5 || check==-1){
+     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+warehouse.c:36:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:38:6: warning: unused variable ‘check’ [-Wunused-variable]
+  int check = -1;
+      ^~~~~
+warehouse.c:36:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:36:6: warning: unused variable ‘minValue’ [-Wunused-variable]
+  int minValue = 101;
+      ^~~~~~~~
+warehouse.c:5:1: warning: braces around scalar initializer
+ int ordersArray[100] = {{0}};
+ ^~~
+warehouse.c:5:1: note: (near initialization for ‘ordersArray[0]’)
+warehouse.c: In function ‘decide’:
+warehouse.c:13:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:15:8: warning: unused variable ‘occurence’ [-Wunused-variable]
+    int occurence=0;
+        ^~~~~~~~~
+warehouse.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c:5:1: warning: braces around scalar initializer
+ int ordersArray[100] = {{0}};
+ ^~~
+warehouse.c:5:1: note: (near initialization for ‘ordersArray[0]’)
+warehouse.c: In function ‘decide’:
+warehouse.c:13:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:15:8: warning: unused variable ‘occurence’ [-Wunused-variable]
+    int occurence=0;
+        ^~~~~~~~~
+warehouse.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c:5:1: warning: braces around scalar initializer
+ int ordersArray[100] = {{0}};
+ ^~~
+warehouse.c:5:1: note: (near initialization for ‘ordersArray[0]’)
+warehouse.c:5:1: warning: braces around scalar initializer
+ int ordersArray[100] = {{0}};
+ ^~~
+warehouse.c:5:1: note: (near initialization for ‘ordersArray[0]’)
+warehouse.c: In function ‘decide’:
+warehouse.c:9:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:12:8: warning: unused variable ‘occurence’ [-Wunused-variable]
+    int occurence=0;
+        ^~~~~~~~~
+warehouse.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c:5:1: warning: braces around scalar initializer
+ int binArray[100] = {{0}};
+ ^~~
+warehouse.c:5:1: note: (near initialization for ‘binArray[0]’)
+warehouse.c: In function ‘decide’:
+warehouse.c:9:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c:5:1: warning: braces around scalar initializer
+ int binArray[100] = {{0}};
+ ^~~
+warehouse.c:5:1: note: (near initialization for ‘binArray[0]’)
+warehouse.c: In function ‘decide’:
+warehouse.c:9:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decide’:
+warehouse.c:9:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decide’:
+warehouse.c:9:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decide’:
+warehouse.c:5:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin){
+     ^~~~~~
+warehouse.c:6:45: error: ‘empty’ undeclared (first use in this function)
+   for(int i=0;i<5;i++){if(binInSlot(i)==-1){empty++;}}//finding the # of empty slot
+                                             ^~~~~
+warehouse.c:6:45: note: each undeclared identifier is reported only once for each function it appears in
+warehouse.c:9:60: error: ‘binArray’ undeclared (first use in this function)
+    for(int i=0;i<5;i++){if(binInSlot(i) == bin){counter++; binArray[bin]++; break;}}
+                                                            ^~~~~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:38:6: warning: unused variable ‘counter’ [-Wunused-variable]
+  int counter = 0;
+      ^~~~~~~
+warehouse.c:37:6: warning: unused variable ‘empty’ [-Wunused-variable]
+  int empty = 0;
+      ^~~~~
+warehouse.c:36:6: warning: unused variable ‘binArray’ [-Wunused-variable]
+  int binArray[100] = {0};
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decide’:
+warehouse.c:5:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin,binArray,empty){
+     ^~~~~~
+warehouse.c:5:5: warning: type of ‘binArray’ defaults to ‘int’ [-Wimplicit-int]
+warehouse.c:5:5: warning: type of ‘empty’ defaults to ‘int’ [-Wimplicit-int]
+warehouse.c:9:68: error: subscripted value is neither array nor pointer nor vector
+    for(int i=0;i<5;i++){if(binInSlot(i) == bin){counter++; binArray[bin]++; break;}}
+                                                                    ^
+warehouse.c:11:86: error: subscripted value is neither array nor pointer nor vector
+    if(counter==0){for(int i=0;i<5;i++){if(binInSlot(i)==-1){fetchBin(bin,i); binArray[binInSlot(i)]++; break;}}}
+                                                                                      ^
+warehouse.c:15:71: error: subscripted value is neither array nor pointer nor vector
+    for(int i=0; i<5; i++){ if(binInSlot(i) == bin){counter++; binArray[bin]++;break;}}
+                                                                       ^
+warehouse.c:18:23: error: subscripted value is neither array nor pointer nor vector
+     int first=binArray[binInSlot(0)],bin_loc; 
+                       ^
+warehouse.c:19:37: error: subscripted value is neither array nor pointer nor vector
+     for(int i=0;i<5;i++){if(binArray[binInSlot(i)]<=first){first=binArray[binInSlot(i)]; bin_loc=binInSlot(i);}} 
+                                     ^
+warehouse.c:19:74: error: subscripted value is neither array nor pointer nor vector
+     for(int i=0;i<5;i++){if(binArray[binInSlot(i)]<=first){first=binArray[binInSlot(i)]; bin_loc=binInSlot(i);}} 
+                                                                          ^
+warehouse.c: In function ‘main’:
+warehouse.c:38:6: warning: unused variable ‘counter’ [-Wunused-variable]
+  int counter = 0;
+      ^~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘decide’:
+warehouse.c:5:5: warning: type of ‘bin’ defaults to ‘int’ [-Wimplicit-int]
+ int decide(bin,binArray,empty){
+     ^~~~~~
+warehouse.c:5:5: warning: type of ‘binArray’ defaults to ‘int’ [-Wimplicit-int]
+warehouse.c:5:5: warning: type of ‘empty’ defaults to ‘int’ [-Wimplicit-int]
+warehouse.c:9:68: error: subscripted value is neither array nor pointer nor vector
+    for(int i=0;i<5;i++){if(binInSlot(i) == bin){counter++; binArray[bin]++; break;}}
+                                                                    ^
+warehouse.c:11:86: error: subscripted value is neither array nor pointer nor vector
+    if(counter==0){for(int i=0;i<5;i++){if(binInSlot(i)==-1){fetchBin(bin,i); binArray[binInSlot(i)]++; break;}}}
+                                                                                      ^
+warehouse.c:15:71: error: subscripted value is neither array nor pointer nor vector
+    for(int i=0; i<5; i++){ if(binInSlot(i) == bin){counter++; binArray[bin]++;break;}}
+                                                                       ^
+warehouse.c:18:23: error: subscripted value is neither array nor pointer nor vector
+     int first=binArray[binInSlot(0)],bin_loc; 
+                       ^
+warehouse.c:19:37: error: subscripted value is neither array nor pointer nor vector
+     for(int i=0;i<5;i++){if(binArray[binInSlot(i)]<=first){first=binArray[binInSlot(i)]; bin_loc=binInSlot(i);}} 
+                                     ^
+warehouse.c:19:74: error: subscripted value is neither array nor pointer nor vector
+     for(int i=0;i<5;i++){if(binArray[binInSlot(i)]<=first){first=binArray[binInSlot(i)]; bin_loc=binInSlot(i);}} 
+                                                                          ^
+warehouse.c: In function ‘main’:
+warehouse.c:38:6: warning: unused variable ‘counter’ [-Wunused-variable]
+  int counter = 0;
+      ^~~~~~~
+warehouse.c:37:6: warning: unused variable ‘empty’ [-Wunused-variable]
+  int empty = 0;
+      ^~~~~
+warehouse.c:36:6: warning: unused variable ‘binArray’ [-Wunused-variable]
+  int binArray[100] = {0};
+      ^~~~~~~~
+warehouse.c: In function ‘decide’:
+warehouse.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+warehouse.c: In function ‘main’:
+warehouse.c:19:6: warning: unused variable ‘counter’ [-Wunused-variable]
+  int counter = 0;
+      ^~~~~~~
+warehouse.c:18:6: warning: unused variable ‘empty’ [-Wunused-variable]
+  int empty = 0;
+      ^~~~~
+warehouse.c:17:6: warning: unused variable ‘binArray’ [-Wunused-variable]
+  int binArray[100] = {0};
+      ^~~~~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:19:6: warning: unused variable ‘occurence’ [-Wunused-variable]
+  int occurence = 0;
+      ^~~~~~~~~
+warehouse.c:18:6: warning: unused variable ‘empty’ [-Wunused-variable]
+  int empty = 0;
+      ^~~~~
+warehouse.c:17:6: warning: unused variable ‘binArray’ [-Wunused-variable]
+  int binArray[100] = {0};
+      ^~~~~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:24:7: warning: unused variable ‘empty_slot’ [-Wunused-variable]
+   int empty_slot=0;
+       ^~~~~~~~~~
+warehouse.c:17:6: warning: unused variable ‘binArray’ [-Wunused-variable]
+  int binArray[100] = {0};
+      ^~~~~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:24:7: warning: unused variable ‘empty_slot’ [-Wunused-variable]
+   int empty_slot=0;
+       ^~~~~~~~~~
+warehouse.c:17:6: warning: unused variable ‘binArray’ [-Wunused-variable]
+  int binArray[100] = {0};
+      ^~~~~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:17:6: warning: unused variable ‘occurence’ [-Wunused-variable]
+  int occurence = 0;
+      ^~~~~~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:17:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
+warehouse.c: In function ‘main’:
+warehouse.c:15:6: warning: unused variable ‘count’ [-Wunused-variable]
+  int count = 0;
+      ^~~~~
